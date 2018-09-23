@@ -1,4 +1,10 @@
+$wide-screen: 1800px;
+$desktop: 1200px;
+$tablets: 768px;
+$phones: 320px;
+
 @import 'normalize.css';
 @import './layout/fonts.scss';
 @import './layout/base.scss';
 @import './blocks/*.scss';
+
