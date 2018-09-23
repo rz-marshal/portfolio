@@ -4,9 +4,9 @@
 
 ##  Чтобы развернуть проект необходимо:
 ```sh
-$ git clone git@github.com:loftschool/advanced-boilerplate.git
-$ cd advanced-boilerplate
-$ npm install
+$ git clone git@github.com:rz-marshal/portfolio.git
+$ cd portfolio
+$ yarn install
 ```
 
 ## Скрипты package.json:
@@ -20,5 +20,5 @@ $ npm install
 
 #### Чтобы запустить скрипт:
 ```sh
-$ npm run имя_скрипта
+$ yarn run имя_скрипта
 ```
