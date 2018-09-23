@@ -32,7 +32,7 @@ block content
     .about__col.about__col_bg_white
       .about__triangle
         svg.svg-triangle.svg-triangle--fill_white
-          
+          poligon();
       .about__title
         h2.title Обо мне
       .about__desc
@@ -47,9 +47,9 @@ block content
               p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium iure quasi labore provident aperiam a illo soluta dolor dolorum porro!
 
     .about__col.about__col_bg_beige
-      .about__triangle
+    .about__triangle
         svg.svg-triangle.svg-triangle--fill_beige
-          
+          poligon();
       .about__right-title
         .subtitle Кто я
       .about__small-desc
@@ -92,10 +92,10 @@ block content
                 a.menu__link #{item}
       .footer__col.footer__col--justify-right
          ul.socials.socials--rounded-style
-          - var socials = ['vk', 'gh', 'in']
-            each item in socials
-              li.socials__item
-                a(href="" class=`socials__link_${item}`).socials__link
+        - var socials = ['vk', 'gh', 'in']
+        each item in socials
+          li.socials__item
+            a(href="" class=`socials__link_${item}`).socials__link
     .footer__row
       .footer__col
         .copyright
